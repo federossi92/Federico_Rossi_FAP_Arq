@@ -421,8 +421,8 @@ letter-spacing: 0.45em;
 font-family: 'Bebas Neue', cursive;
 }
 nav ul li a:hover {
-color: rgb(13, 12, 12);
-transition: 0.8s;
+color: rgb(30, 26, 26);
+transition: 0.9s;
 
 }
 body {
