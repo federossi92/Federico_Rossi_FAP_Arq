@@ -74,13 +74,15 @@ justify-content: space-around;
   background-color: grey;
   opacity: 0.95;
   margin-bottom: 2px;
+  grid-row: 2/3;
   
 }
 .section__proyectos{
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  grid-auto-rows: minmax(300px, auto);
-  gap: 5px;
+  padding: 1rem;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(4, 255px);
   justify-content: center;
   padding: 50px;
 
@@ -100,7 +102,6 @@ justify-content: center;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  transition: transform 0.8s ease-in-out;
   width: 100%;
   object-fit: cover;
   height: 100%;
@@ -114,7 +115,7 @@ opacity: 0.4;}
 
 .casasn__p {
   position: absolute;
-  font-size: 15px;
+  font-size: 25px;
 }
 .caru {
   display: flex;
@@ -129,7 +130,6 @@ position: relative;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  transition: transform 0.8s ease-in-out;
   width: 100%;
   object-fit: cover;
   height: 100%;
@@ -145,7 +145,7 @@ opacity: 0.5;}
 .caru__p {
   position: absolute;
   font-family: 'Bebas Neue', cursive;
-  font-size: 15px;
+  font-size: 25px;
 }
 
 .casamx {
@@ -161,7 +161,6 @@ position: relative;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  transition: transform 0.8s ease-in-out;
   width: 100%;
   object-fit: cover;
   height: 100%;
@@ -177,7 +176,7 @@ opacity: 0.45;}
 .casamx__p {
   position: absolute;
   font-family: 'Bebas Neue', cursive;
-  font-size: 15px;
+  font-size: 25px;
 }
 
 .emu {
@@ -193,7 +192,6 @@ position: relative;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  transition: transform 0.8s ease-in-out;
   width: 100%;
   object-fit: cover;
   height: 100%;
@@ -209,7 +207,7 @@ opacity: 0.5;}
 .emu__p {
   position: absolute;
   font-family: 'Bebas Neue', cursive;
-  font-size: 15px;
+  font-size: 25px;
 }
 
 
@@ -217,7 +215,7 @@ opacity: 0.5;}
 .particular__caru{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: minmax(450px, auto);
+  grid-template-rows: minmax(450px, auto);
 padding: 50px;
 opacity: 0.8
 ;}
@@ -343,15 +341,18 @@ font-family: 'Bebas Neue', cursive;
   opacity: 0.7;
   z-index: 10;
   display: flex;
-  justify-content: space-around;}
+  justify-content: space-around;
+grid-row: 1/2;}
 
 .section__nosotros {
   padding: 50px;
 display: grid;
-grid-template-columns: auto auto auto;
-grid-auto-rows: auto, auto;
+grid-template-columns: 90px auto 90px;
+grid-template-rows: 90px auto;
 background-color:
 rgba(149, 149, 149, 0.5);
+  margin: 50px;
+  border-radius: 20px;
 
 }
 .nosotros__p{
@@ -359,6 +360,7 @@ rgba(149, 149, 149, 0.5);
   font-family: 'bebas neue';
 font-size: 18px;
 padding: 10px;
+grid-row: 1/3;
 }
 .fede__nosotros {
 display: flex;
@@ -380,24 +382,20 @@ font-size: 15px;
   font-family: 'bebas neue';
 font-size: 15px;
 }
-.fede{
-  height: 100%;
-  width: 100%;
-object-fit: cover;
-border-radius: 50px;}
-.dana{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 10px;
+#fede{
+
+
+border-radius: 90px;}
+#dana{
+  border-radius: 90px;
 }
 .main__nosotros{
   display: flex;
   background-image: url(../imagenes/casamadera.jpg);
-  display: flex;
   flex-direction: column;
   justify-content: center;
   background-repeat: no-repeat;
+  grid-row: 2/3;
 }
 
 /* estilos contacto */
@@ -409,26 +407,38 @@ border-radius: 50px;}
   z-index: 10;
 position: fixed;
 display: flex;
-justify-content: space-around;}
+justify-content: space-around;
+grid-row: 1/2;
+}
 
 .main__contacto{
   background-image: url(../imagenes/casamadera.jpg);
   background-repeat: no-repeat;
   opacity: 0.85;
   display: grid;
-  grid-template-columns: (15vw, 20vw);
-  grid-auto-rows: minmax(300px, auto);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+  grid-template-rows: repeat(2, 255px);
   gap: 5px;
   justify-content: center;
   align-items: center;
-  padding: 80px;
+  padding-top:  100px;
+  grid-row: 2/3;
 }
 .mapa {
   grid-column: 1/3;
+  grid-row: 2/3;
   align-items: center;
-  height: 100%;
-  width: 100%;
+  border-radius: 20px
+  ;}
+.mapaframe {
+  border-radius: 20px;
+display: block;
+height: 100%;
+width: 100%;}
 
+.div__contacto{
+grid-column: 1/2;
+grid-row: 1/2;
 }
 .formulario__contacto{
 display: flex;
@@ -442,17 +452,19 @@ align-items: center;
 background-color: grey;
 border-radius: 10px;
 opacity: 0.95;
+margin: auto;
 }
 .contacto__description{
   display: flex;
   flex-direction: column;
 z-index: 9;
-width: 250px;
-height: 50px;
 font-family: 'bebas neue';
 font-weight: bolder; 
 font-size: 30px;
-
+grid-column: 2/3;
+grid-row: 1/2;
+align-items: center;
+justify-content: center;
 }
 
 /* estilos comunes a todas las paginas */
@@ -509,12 +521,12 @@ color: rgb(30, 26, 26);
 transition: 0.7s;
 
 }
-body {
+
+body{
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
 }
-
 footer {
   display: flex;
   justify-content: center;
@@ -525,6 +537,7 @@ footer {
   background-color:rgb(0, 0, 0);
   opacity: 0.9;
   height: 30px;
+  grid-row: 3/4;
 }
 footer p {
 
@@ -536,6 +549,8 @@ footer p {
 html {
   font-size: 62.5%;
 }
+/* RESPONSIVE    */
+
 
 @media screen and (max-width: 480px) {
   footer { flex-direction: column; 
@@ -556,6 +571,23 @@ html {
     font-size: 15px; }
     .index__portada { overflow:auto;
 }
+.section__nosotros{
+  display: grid;
+  grid-template-rows: repeat(4, 255px);
+  grid-template-columns: 300px;
+}
+.caru__p{
+  font-size: 12px;
+  padding: 10px;}
+  .emu__p{
+    font-size: 12px;
+    padding: 10px;}
+  .casasn__p{
+    font-size: 12px;
+    padding: 10px;}
+  .casamx__p{
+    font-size: 12px;
+    padding: 10px;}
 }
 @media screen and (max-width: 890px) {
   
@@ -565,17 +597,40 @@ html {
     display: flex;
     flex-direction: column;}
 
+    .section__proyectos{
+      display: grid;
+      grid-template-rows: repeat(4, 300px);
+      grid-template-columns: 500px;
+    }
+    .caru{
+      grid-row: 1/2;
+      grid-column: 1/2;
+    }
+    .emu{
+      grid-row: 2/3;
+      grid-column: 1/2;
+    }
+    .casasn{
+      grid-row: 3/4;
+      grid-column: 1/2;
+    }
+    .casamx{
+      grid-row: 4/5;
+      grid-column: 1/2;
+    }
+
+
     .caru__p{
-      font-size: 12px;
+      font-size: 18px;
       padding: 10px;}
       .emu__p{
-      font-size: 12px;
+        font-size: 18px;
         padding: 10px;}
       .casasn__p{
-      font-size: 12px;
+        font-size: 18px;
         padding: 10px;}
       .casamx__p{
-        font-size: 12px;
+        font-size: 18px;
         padding: 10px;}
 
     .particular__emu{
@@ -600,4 +655,29 @@ html {
     font-size: 15px; }
     .index__portada { overflow:auto;
 }
+
+.main__contacto{
+  display: flex;
+  flex-direction: column;
 }
+.contacto__description{
+  padding: 20px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 890px) {
+  .section__proyectos{
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(2, 255px);
+}}
