@@ -90,45 +90,129 @@ display: flex;
 align-items: center;
 justify-content: center;
   font-family: 'Bebas Neue', cursive;
-  font-size: 15px;
+  position: relative;
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+.casasn__img{
+  
   background-image: url("../imagenes/casasn1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.8s ease-in-out;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  border-radius: 15px;
 }
+.casasn__img:hover {
+  color: rgb(245, 242, 242);
+  transition: 1s; 
+font-optical-sizing: 1s;
+opacity: 0.4;}
 
-.casamx{
-  background-image: url("../imagenes/casamx.jpg");
-  font-family: 'Bebas Neue', cursive;
+.casasn__p {
+  position: absolute;
   font-size: 15px;
-  transition: transform 0.3s ease-in-out;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  grid-column: 2/4;
 }
-
-.emu{
-  background-image: url("../imagenes/emu1.jpeg");
-  font-family: 'Bebas Neue', cursive;
-  font-size: 15px;
-  transition: transform 0.3s ease-in-out;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .caru {
+  display: flex;
+align-items: center;
+justify-content: center;
+grid-column: 1/3;
+grid-row: 1/2;
+position: relative;
+}
+.caru__img{
   background-image: url("../imagenes/caru1.jpg");
-  font-family: 'Bebas Neue', cursive;
-  font-size: 15px;
-  transition: transform 0.9s ease-in-out;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-grid-column: 1/3;
+  transition: transform 0.8s ease-in-out;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  border-radius: 15px;
 }
+
+.caru__img:hover {
+  color: rgb(245, 242, 242);
+  transition: 1s; 
+font-optical-sizing: 1s;
+opacity: 0.5;}
+
+.caru__p {
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 15px;
+}
+
+.casamx {
+  display: flex;
+align-items: center;
+justify-content: center;
+grid-column: 2/4;
+grid-row: 2/3;
+position: relative;
+}
+.casamx__img{
+  background-image: url("../imagenes/casamx.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.8s ease-in-out;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.casamx__img:hover {
+  color: rgb(245, 242, 242);
+  transition: 1s; 
+font-optical-sizing: 1s;
+opacity: 0.45;}
+
+.casamx__p {
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 15px;
+}
+
+.emu {
+  display: flex;
+align-items: center;
+justify-content: center;
+grid-column: 3/4;
+grid-row: 1/2;
+position: relative;
+}
+.emu__img{
+  background-image: url("../imagenes/emu1.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.8s ease-in-out;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.emu__img:hover {
+  color: rgb(245, 242, 242);
+  transition: 1s; 
+font-optical-sizing: 1s;
+opacity: 0.5;}
+
+.emu__p {
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 15px;
+}
+
+
 /* estilos particulares a paginas de proyectos */
 .particular__caru{
   display: grid;
@@ -137,13 +221,13 @@ grid-column: 1/3;
 padding: 50px;
 opacity: 0.8
 ;}
-.caru__img {
+.caru_img {
   width: 100%;
   object-fit: cover;
   height: 100%;
   border-radius: 15px;
 }
-.caru__p{
+.caru_p{
   font-family: 'Bebas Neue', cursive;
   font-size: 25px;
   padding: 30px;
@@ -155,13 +239,13 @@ opacity: 0.8
 padding: 50px;
 opacity: 0.8
 ;}
-.emu__img {
+.emu_img {
   width: 100%;
   object-fit: cover;
   height: 100%;
   border-radius: 15px;
 }
-.emu__p{
+.emu_p{
   font-family: 'Bebas Neue', cursive;
   font-size: 25px;
   padding: 30px;
@@ -174,13 +258,13 @@ opacity: 0.8
 padding: 50px;
 opacity: 0.8;
 }
-.casasn__img {
+.casasn_img {
   width: 100%;
   object-fit: cover;
   height: 100%;
   border-radius: 15px;
 }
-.casasn__p{
+.casasn_p{
   font-family: 'Bebas Neue', cursive;
   font-size: 25px;
   padding: 30px;
@@ -193,13 +277,13 @@ opacity: 0.8;
 padding: 50px;
 opacity: 0.8;
 }
-.casamx__img {
+.casamx_img {
   width: 100%;
   object-fit: cover;
   height: 100%;
   border-radius: 15px;
 }
-.casamx__p{
+.casamx_p{
   font-family: 'Bebas Neue', cursive;
   font-size: 25px;
   padding: 30px;
