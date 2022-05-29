@@ -1,5 +1,5 @@
 *{margin: 0;
-    padding: 0;}
+  padding: 0;}
 
 /* estilos index */
 .header__index {height: 70px;
@@ -13,9 +13,9 @@ align-items: center;
 justify-content: space-between;}
 
 .main__index{
-  display: flex;
-  flex-direction:column;
-  background-image: url("../imagenes/casamadera.jpg");
+display: flex;
+flex-direction:column;
+background-image: url("../imagenes/casamadera.jpg");
 background-repeat: no-repeat;
 }
 
@@ -34,91 +34,91 @@ margin-top: 70px;
 
 
 .index__titulo{
-  top: 200px;
-  font-family: 'Bebas Neue', cursive;
-  font-weight:bolder;
-  font-size: 80px;
-  color: rgb(10, 10, 10);
-  opacity: 0.9;
+top: 200px;
+font-family: 'Bebas Neue', cursive;
+font-weight:bolder;
+font-size: 80px;
+color: rgb(10, 10, 10);
+opacity: 0.9;
 }
 .index__titulo--pequeno{
-  top: 60%;
-  padding-bottom: 0%;
-  font-family: 'Bebas Neue', cursive;
-  font-size: 50px;
-  color: rgb(10, 10, 10);
-  opacity: 0.9;
+top: 60%;
+padding-bottom: 0%;
+font-family: 'Bebas Neue', cursive;
+font-size: 50px;
+color: rgb(10, 10, 10);
+opacity: 0.9;
 }
 .index__intro {
 
-  top: 75%;
-  padding-bottom: 0%;
-  font-family: 'Bebas Neue', cursive;
-  font-size: 30px;
-  color: rgb(10, 10, 10);
-  opacity: 0.9;
+top: 75%;
+padding-bottom: 0%;
+font-family: 'Bebas Neue', cursive;
+font-size: 30px;
+color: rgb(10, 10, 10);
+opacity: 0.9;
 }
 
 /* estilos proyectos */
 
 
 .header__proyectos {height: 70px;
-  width: 100%;
-  background-color:rgb(0, 0, 0);
-  opacity: 0.7;
-  z-index: 10;
-  display: flex;
+width: 100%;
+background-color:rgb(0, 0, 0);
+opacity: 0.7;
+z-index: 10;
+display: flex;
 justify-content: space-around;
 }
 .main__proyectos{
-  background-color: grey;
-  opacity: 0.95;
-  margin-bottom: 2px;
-  grid-row: 2/3;
-  
+background-color: grey;
+opacity: 0.95;
+margin-bottom: 2px;
+grid-row: 2/3;
+
 }
 .section__proyectos{
-  display: grid;
-  padding: 1rem;
-  grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-template-rows: repeat(4, 255px);
-  justify-content: center;
-  padding: 50px;
+display: grid;
+padding: 1rem;
+grid-gap: 1rem;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+grid-template-rows: repeat(4, 255px);
+justify-content: center;
+padding: 50px;
 
 }
 .casasn{
 display: flex;
 align-items: center;
 justify-content: center;
-  font-family: 'Bebas Neue', cursive;
-  position: relative;
-  grid-row: 2/3;
-  grid-column: 1/2;
+font-family: 'Bebas Neue', cursive;
+position: relative;
+grid-row: 2/3;
+grid-column: 1/2;
 }
 .casasn__img{
-  
-  background-image: url("../imagenes/casasn1.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  object-fit: cover;
-  height: 100%;
-  border-radius: 15px;
+
+background-image: url("../imagenes/casasn1.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width: 100%;
+object-fit: cover;
+height: 100%;
+border-radius: 15px;
 }
 .casasn__img:hover {
-  color: rgb(245, 242, 242);
-  transition: 1s; 
+color: rgb(245, 242, 242);
+transition: 1s; 
 font-optical-sizing: 1s;
 opacity: 0.4;}
 
 .casasn__p {
-  position: absolute;
-  font-size: 25px;
+position: absolute;
+font-size: 25px;
 }
 .caru {
-  display: flex;
+display: flex;
 align-items: center;
 justify-content: center;
 grid-column: 1/3;
@@ -126,30 +126,30 @@ grid-row: 1/2;
 position: relative;
 }
 .caru__img{
-  background-image: url("../imagenes/caru1.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  object-fit: cover;
-  height: 100%;
-  border-radius: 15px;
+background-image: url("../imagenes/caru1.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width: 100%;
+object-fit: cover;
+height: 100%;
+border-radius: 15px;
 }
 
 .caru__img:hover {
-  color: rgb(245, 242, 242);
-  transition: 1s; 
+color: rgb(245, 242, 242);
+transition: 1s; 
 font-optical-sizing: 1s;
 opacity: 0.5;}
 
 .caru__p {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  font-size: 25px;
+position: absolute;
+font-family: 'Bebas Neue', cursive;
+font-size: 25px;
 }
 
 .casamx {
-  display: flex;
+display: flex;
 align-items: center;
 justify-content: center;
 grid-column: 2/4;
@@ -157,30 +157,30 @@ grid-row: 2/3;
 position: relative;
 }
 .casamx__img{
-  background-image: url("../imagenes/casamx.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  object-fit: cover;
-  height: 100%;
-  border-radius: 15px;
+background-image: url("../imagenes/casamx.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width: 100%;
+object-fit: cover;
+height: 100%;
+border-radius: 15px;
 }
 
 .casamx__img:hover {
-  color: rgb(245, 242, 242);
-  transition: 1s; 
+color: rgb(245, 242, 242);
+transition: 1s; 
 font-optical-sizing: 1s;
 opacity: 0.45;}
 
 .casamx__p {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  font-size: 25px;
+position: absolute;
+font-family: 'Bebas Neue', cursive;
+font-size: 25px;
 }
 
 .emu {
-  display: flex;
+display: flex;
 align-items: center;
 justify-content: center;
 grid-column: 3/4;
@@ -188,176 +188,176 @@ grid-row: 1/2;
 position: relative;
 }
 .emu__img{
-  background-image: url("../imagenes/emu1.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  object-fit: cover;
-  height: 100%;
-  border-radius: 15px;
+background-image: url("../imagenes/emu1.jpeg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width: 100%;
+object-fit: cover;
+height: 100%;
+border-radius: 15px;
 }
 
 .emu__img:hover {
-  color: rgb(245, 242, 242);
-  transition: 1s; 
+color: rgb(245, 242, 242);
+transition: 1s; 
 font-optical-sizing: 1s;
 opacity: 0.5;}
 
 .emu__p {
-  position: absolute;
-  font-family: 'Bebas Neue', cursive;
-  font-size: 25px;
+position: absolute;
+font-family: 'Bebas Neue', cursive;
+font-size: 25px;
 }
 
 
 /* estilos particulares a paginas de proyectos */
 .particular__caru{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: minmax(450px, auto);
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: minmax(450px, auto);
 padding: 50px;
 opacity: 0.8
 ;}
 .caru_img {
-  width: 100%;
-  object-fit: cover;
-  height: 100%;
-  border-radius: 15px;
+width: 100%;
+object-fit: cover;
+height: 100%;
+border-radius: 15px;
 }
 .caru_p{
-  font-family: 'Bebas Neue', cursive;
-  font-size: 25px;
-  padding: 30px;
+font-family: 'Bebas Neue', cursive;
+font-size: 25px;
+padding: 30px;
 }
 .particular__emu{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: minmax(450px, auto);
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-auto-rows: minmax(450px, auto);
 padding: 50px;
 opacity: 0.8
 ;}
 .emu_img {
-  width: 100%;
-  object-fit: cover;
-  height: 100%;
-  border-radius: 15px;
+width: 100%;
+object-fit: cover;
+height: 100%;
+border-radius: 15px;
 }
 .emu_p{
-  font-family: 'Bebas Neue', cursive;
-  font-size: 25px;
-  padding: 30px;
+font-family: 'Bebas Neue', cursive;
+font-size: 25px;
+padding: 30px;
 }
 
 .particular__casasn{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: minmax(450px, auto);
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-auto-rows: minmax(450px, auto);
 padding: 50px;
 opacity: 0.8;
 }
 .casasn_img {
-  width: 100%;
-  object-fit: cover;
-  height: 100%;
-  border-radius: 15px;
+width: 100%;
+object-fit: cover;
+height: 100%;
+border-radius: 15px;
 }
 .casasn_p{
-  font-family: 'Bebas Neue', cursive;
-  font-size: 25px;
-  padding: 30px;
+font-family: 'Bebas Neue', cursive;
+font-size: 25px;
+padding: 30px;
 }
 
 .particular__casamx{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: minmax(450px, auto);
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-auto-rows: minmax(450px, auto);
 padding: 50px;
 opacity: 0.8;
 }
 .casamx_img {
-  width: 100%;
-  object-fit: cover;
-  height: 100%;
-  border-radius: 15px;
+width: 100%;
+object-fit: cover;
+height: 100%;
+border-radius: 15px;
 }
 .casamx_p{
-  font-family: 'Bebas Neue', cursive;
-  font-size: 25px;
-  padding: 30px;
+font-family: 'Bebas Neue', cursive;
+font-size: 25px;
+padding: 30px;
 }
 /* estilos unite */
 
 .header__unite {height: 70px;
-  width: 100%;
-  background-color:rgb(0, 0, 0);
-  opacity: 0.9;
-  z-index: 10;
-  display: flex;
+width: 100%;
+background-color:rgb(0, 0, 0);
+opacity: 0.9;
+z-index: 10;
+display: flex;
 justify-content: space-around;
 
 }
 .main__unite{
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 background-color: grey;
 padding-left: 15%;
 padding-right: 15%;
 }
 .unite__formulario{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 .formulario__unite{
-  display: flex;
-  flex-direction: column;   
-  top: 20px;
-  width: 350px;
-  z-index: 9;
-  font-family: 'bebas neue';
-  font-weight: bolder; 
-  font-size: 30px;
-  align-items: center;
-  background-color: grey;
-  border-radius: 10px;
-  padding: 20px;
-  opacity: 0.95;
+display: flex;
+flex-direction: column;   
+top: 20px;
+width: 350px;
+z-index: 9;
+font-family: 'bebas neue';
+font-weight: bolder; 
+font-size: 30px;
+align-items: center;
+background-color: grey;
+border-radius: 10px;
+padding: 20px;
+opacity: 0.95;
 }
 .unite__section__p {
 display: flex;
 flex-direction: column;
 font-family: 'Bebas Neue', cursive;
-  font-size: 30px;
-  color: rgb(10, 10, 10);
-  opacity: 0.9;
-  align-items: center;
+font-size: 30px;
+color: rgb(10, 10, 10);
+opacity: 0.9;
+align-items: center;
 
 }
 /* estilos nosotros */
 .header__nosotros {height: 70px;
-  width: 100%;
-  background-color:rgb(0, 0, 0);
-  opacity: 0.7;
-  z-index: 10;
-  display: flex;
-  justify-content: space-around;
+width: 100%;
+background-color:rgb(0, 0, 0);
+opacity: 0.7;
+z-index: 10;
+display: flex;
+justify-content: space-around;
 grid-row: 1/2;}
 
 .section__nosotros {
-  padding: 50px;
+padding: 50px;
 display: grid;
 grid-template-columns: 90px auto 90px;
 grid-template-rows: 90px auto;
 background-color:
 rgba(149, 149, 149, 0.5);
-  margin: 50px;
-  border-radius: 20px;
+margin: 50px;
+border-radius: 20px;
 
 }
 .nosotros__p{
-  grid-column: 2/3;
-  font-family: 'bebas neue';
+grid-column: 2/3;
+font-family: 'bebas neue';
 font-size: 18px;
 padding: 10px;
 grid-row: 1/3;
@@ -372,14 +372,14 @@ font-size: 15px;
 
 }
 .nosotros__desc{
-  display: block;
+display: block;
 }
 .dana__nosotros {
-  display: flex;
-  flex-direction: column;
-  grid-column: 3/4;
-  grid-row: 1/4;
-  font-family: 'bebas neue';
+display: flex;
+flex-direction: column;
+grid-column: 3/4;
+grid-row: 1/4;
+font-family: 'bebas neue';
 font-size: 15px;
 }
 #fede{
@@ -387,24 +387,24 @@ font-size: 15px;
 
 border-radius: 90px;}
 #dana{
-  border-radius: 90px;
+border-radius: 90px;
 }
 .main__nosotros{
-  display: flex;
-  background-image: url(../imagenes/casamadera.jpg);
-  flex-direction: column;
-  justify-content: center;
-  background-repeat: no-repeat;
-  grid-row: 2/3;
+display: flex;
+background-image: url(../imagenes/casamadera.jpg);
+flex-direction: column;
+justify-content: center;
+background-repeat: no-repeat;
+grid-row: 2/3;
 }
 
 /* estilos contacto */
 
 .header__contacto {height: 70px;
-  width: 100%;
-  background-color:rgb(0, 0, 0);
-  opacity: 0.7;
-  z-index: 10;
+width: 100%;
+background-color:rgb(0, 0, 0);
+opacity: 0.7;
+z-index: 10;
 position: fixed;
 display: flex;
 justify-content: space-around;
@@ -412,26 +412,26 @@ grid-row: 1/2;
 }
 
 .main__contacto{
-  background-image: url(../imagenes/casamadera.jpg);
-  background-repeat: no-repeat;
-  opacity: 0.85;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
-  grid-template-rows: repeat(2, 255px);
-  gap: 5px;
-  justify-content: center;
-  align-items: center;
-  padding-top:  100px;
-  grid-row: 2/3;
+background-image: url(../imagenes/casamadera.jpg);
+background-repeat: no-repeat;
+opacity: 0.85;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+grid-template-rows: repeat(2, 255px);
+gap: 5px;
+justify-content: center;
+align-items: center;
+padding-top:  100px;
+grid-row: 2/3;
 }
 .mapa {
-  grid-column: 1/3;
-  grid-row: 2/3;
-  align-items: center;
-  border-radius: 20px
-  ;}
+grid-column: 1/3;
+grid-row: 2/3;
+align-items: center;
+border-radius: 20px
+;}
 .mapaframe {
-  border-radius: 20px;
+border-radius: 20px;
 display: block;
 height: 100%;
 width: 100%;}
@@ -455,8 +455,8 @@ opacity: 0.95;
 margin: auto;
 }
 .contacto__description{
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 z-index: 9;
 font-family: 'bebas neue';
 font-weight: bolder; 
@@ -475,19 +475,19 @@ height: 60px;
 position: fixed;
 z-index: 999;}
 .wsp{
-  background-color: rgb(70, 68, 69);
-  border: 2px black;
-  position: fixed;
-  z-index: 999;
-  border-radius: 10%;
-  bottom: 80px;
-  right: 80px;
-  padding:2px;
-  transition: ease 0.5s;
+background-color: rgb(70, 68, 69);
+border: 2px black;
+position: fixed;
+z-index: 999;
+border-radius: 10%;
+bottom: 80px;
+right: 80px;
+padding:2px;
+transition: ease 0.5s;
 }
 .wsp:hover{
-  transform:scale(1.1);
-  transition: 0.3s;
+transform:scale(1.1);
+transition: 0.3s;
 }
 
 .logo{ height: 70px;
@@ -495,10 +495,10 @@ width: 90px;
 } 
 
 nav{
-  width: 70%;
-  height: 50%;
-  padding-top: 20px;
-  box-sizing: border-box; 
+width: 70%;
+height: 50%;
+padding-top: 20px;
+box-sizing: border-box; 
 
 }
 
@@ -523,145 +523,145 @@ transition: 0.7s;
 }
 
 body{
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  min-height: 100vh;
+display: grid;
+grid-template-rows: auto 1fr auto;
+min-height: 100vh;
 }
 footer {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  justify-content: space-around;
-  font-family: 'Bebas Neue', cursive;
-  font-size: 1em;
-  background-color:rgb(0, 0, 0);
-  opacity: 0.9;
-  height: 30px;
-  grid-row: 3/4;
+display: flex;
+justify-content: center;
+flex-direction: row;
+justify-content: space-around;
+font-family: 'Bebas Neue', cursive;
+font-size: 1em;
+background-color:rgb(0, 0, 0);
+opacity: 0.9;
+height: 30px;
+grid-row: 3/4;
 }
 footer p {
 
-  color: aliceblue;
-  letter-spacing: 0.5em;
-  display: block;
+color: aliceblue;
+letter-spacing: 0.5em;
+display: block;
 }
 
 html {
-  font-size: 62.5%;
+font-size: 62.5%;
 }
 /* RESPONSIVE    */
 
 
 @media screen and (max-width: 480px) {
-  footer { flex-direction: column; 
-    font-size: 0.8em;
-    height: 20px;}
-  nav ul  { flex-direction: column;}
-  nav ul li a { font-size: 0.8em;}
+footer { flex-direction: column; 
+  font-size: 0.8em;
+  height: 20px;}
+nav ul  { flex-direction: column;}
+nav ul li a { font-size: 0.8em;}
 
-  .index__titulo{
-    top: 20%;
-    font-size: 40px;
-  }
-  .index__titulo--pequeno{
-    top: 40%;
-    font-size: 3em;}
-  .index__intro {
-    top: 60%;
-    font-size: 15px; }
-    .index__portada { overflow:auto;
+.index__titulo{
+  top: 20%;
+  font-size: 40px;
+}
+.index__titulo--pequeno{
+  top: 40%;
+  font-size: 3em;}
+.index__intro {
+  top: 60%;
+  font-size: 15px; }
+  .index__portada { overflow:auto;
 }
 .section__nosotros{
-  display: grid;
-  grid-template-rows: repeat(4, 255px);
-  grid-template-columns: 300px;
+display: grid;
+grid-template-rows: repeat(4, 255px);
+grid-template-columns: 300px;
 }
 .caru__p{
+font-size: 12px;
+padding: 10px;}
+.emu__p{
   font-size: 12px;
   padding: 10px;}
-  .emu__p{
-    font-size: 12px;
-    padding: 10px;}
-  .casasn__p{
-    font-size: 12px;
-    padding: 10px;}
-  .casamx__p{
-    font-size: 12px;
-    padding: 10px;}
+.casasn__p{
+  font-size: 12px;
+  padding: 10px;}
+.casamx__p{
+  font-size: 12px;
+  padding: 10px;}
 }
 @media screen and (max-width: 890px) {
-  
-  nav ul  { flex-direction: column;}
-  nav ul li a { font-size: 1.2em;}
-  .particular__caru{
-    display: flex;
-    flex-direction: column;}
 
-    .section__proyectos{
-      display: grid;
-      grid-template-rows: repeat(4, 300px);
-      grid-template-columns: 500px;
-    }
-    .caru{
-      grid-row: 1/2;
-      grid-column: 1/2;
-    }
-    .emu{
-      grid-row: 2/3;
-      grid-column: 1/2;
-    }
-    .casasn{
-      grid-row: 3/4;
-      grid-column: 1/2;
-    }
-    .casamx{
-      grid-row: 4/5;
-      grid-column: 1/2;
-    }
+nav ul  { flex-direction: column;}
+nav ul li a { font-size: 1.2em;}
+.particular__caru{
+  display: flex;
+  flex-direction: column;}
+
+  .section__proyectos{
+    display: grid;
+    grid-template-rows: repeat(4, 300px);
+    grid-template-columns: 500px;
+  }
+  .caru{
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+  .emu{
+    grid-row: 2/3;
+    grid-column: 1/2;
+  }
+  .casasn{
+    grid-row: 3/4;
+    grid-column: 1/2;
+  }
+  .casamx{
+    grid-row: 4/5;
+    grid-column: 1/2;
+  }
 
 
-    .caru__p{
+  .caru__p{
+    font-size: 18px;
+    padding: 10px;}
+    .emu__p{
       font-size: 18px;
       padding: 10px;}
-      .emu__p{
-        font-size: 18px;
-        padding: 10px;}
-      .casasn__p{
-        font-size: 18px;
-        padding: 10px;}
-      .casamx__p{
-        font-size: 18px;
-        padding: 10px;}
+    .casasn__p{
+      font-size: 18px;
+      padding: 10px;}
+    .casamx__p{
+      font-size: 18px;
+      padding: 10px;}
 
-    .particular__emu{
-      display: flex;
-    flex-direction: column;}
-    .particular__casasn{
-      display: flex;
-    flex-direction: column;}
-    .particular__casamx{
-      display: flex;
-    flex-direction: column;}
+  .particular__emu{
+    display: flex;
+  flex-direction: column;}
+  .particular__casasn{
+    display: flex;
+  flex-direction: column;}
+  .particular__casamx{
+    display: flex;
+  flex-direction: column;}
 
-  .index__titulo{
-    top: 25%;
-    font-size: 45px;
-  }
-  .index__titulo--pequeno{
-    top: 40%;
-    font-size: 3em;}
-  .index__intro {
-    top: 60%;
-    font-size: 15px; }
-    .index__portada { overflow:auto;
+.index__titulo{
+  top: 25%;
+  font-size: 45px;
+}
+.index__titulo--pequeno{
+  top: 40%;
+  font-size: 3em;}
+.index__intro {
+  top: 60%;
+  font-size: 15px; }
+  .index__portada { overflow:auto;
 }
 
 .main__contacto{
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 .contacto__description{
-  padding: 20px;
+padding: 20px;
 }
 
 }
@@ -677,7 +677,7 @@ html {
 
 
 @media screen and (min-width: 890px) {
-  .section__proyectos{
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-rows: repeat(2, 255px);
+.section__proyectos{
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(2, 255px);
 }}
