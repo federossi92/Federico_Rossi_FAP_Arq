@@ -4,13 +4,13 @@
 /* estilos index */
 .header__index {height: 70px;
 width: 100%;
-background-color:rgb(0, 0, 0);
+background-color:rgb(18, 18, 18);
 opacity: 0.7;
 position: fixed;
 z-index: 10;
 display: flex;
 align-items: center;
-justify-content: space-between;}
+}
 
 .main__index  {
 display: flex;
@@ -240,7 +240,6 @@ opacity: 0.8
 
 .carousel-item{
   width: 50%;
-  height: 400px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -249,6 +248,7 @@ opacity: 0.8
 background-position: center;
 background-repeat: no-repeat;
 margin: 20px;
+margin-top: 80px;
 }
 
 
@@ -514,12 +514,12 @@ box-sizing: border-box;
 nav ul {
 display:flex;
 list-style-type: none;
+justify-content: end;
 gap: 1rem;
 flex-basis: 60%;
-float: right;
 }
 nav ul li a {
-color:rgb(247, 247, 247);
+color:rgb(255, 255, 255);
 font-size: 1.9em;
 text-decoration: none;
 letter-spacing: 0.45em;
@@ -531,26 +531,25 @@ transition: 0.7s;
 
 }
 
-.navbar-toggler{
-  display:flex;
-list-style-type: none;
-gap: 1rem;
-flex-basis: 60%;
-float: right;
+#navbarNav{
+  justify-content: space-between;
 }
+
 .container-fluid{
+  display: flex;
   color:rgb(4, 3, 3);
 font-size: 1.9em;
 text-decoration: none;
 letter-spacing: 0.45em;
 font-family: 'Bebas Neue', cursive;
+
 }
+
 .navbar-nav a:hover{
   color: rgb(30, 26, 26);
 transition: 0.7s;
 
 }
-
 
 body{
 display: grid;
