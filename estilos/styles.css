@@ -1,5 +1,5 @@
-*{margin: 0;
-  padding: 0;}
+/* *{margin: 0;
+  padding: 0;} */
 
 /* estilos index */
 /* .header__index {height: 70px;
@@ -213,7 +213,7 @@ font-size: 25px;
 
 
 /* estilos particulares a paginas de proyectos */
-.particular__caru{
+/* .particular__caru{
 display: grid;
 grid-template-columns: repeat(2, 1fr);
 grid-template-rows: minmax(450px, auto);
@@ -297,11 +297,11 @@ border-radius: 15px;
 .casamx_p{
 font-family: 'Bebas Neue', cursive;
 font-size: 25px;
-padding: 30px;
-}
+padding: 30px; */
+
 /* estilos unite */
 
-.header__unite {height: 70px;
+/* .header__unite {height: 70px;
 width: 100%;
 background-color:rgb(0, 0, 0);
 opacity: 0.9;
@@ -347,7 +347,7 @@ color: rgb(10, 10, 10);
 opacity: 0.9;
 align-items: center;
 
-}
+} */
 /* estilos nosotros */
 /* .header__nosotros {height: 70px;
 width: 100%;
@@ -481,7 +481,7 @@ align-items: center;
 justify-content: center;
 } */
 
-/* estilos comunes a todas las paginas */
+/* estilos comunes a todas las paginas
 .boton {
 width: 60px;
 padding-right:0%;
@@ -581,9 +581,9 @@ display: block;
 
 html {
 font-size: 62.5%;
-}
+} */
 /* RESPONSIVE    */
-@media screen and (max-width: 200px) {
+/* @media screen and (max-width: 200px) {
   footer { flex-direction: column; 
     font-size: 0.8em;
     height: 20px;}
@@ -760,7 +760,7 @@ padding: 20px;
   .carousel-item {
     height: 280px;
   }
-}
+} */
 
 
 
@@ -770,9 +770,3 @@ padding: 20px;
 
 
 
-/* 
-@media screen and (min-width: 890px) {
-.section__proyectos{
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-template-rows: repeat(2, 255px);
-}} */

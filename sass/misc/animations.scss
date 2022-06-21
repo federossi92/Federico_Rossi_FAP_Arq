@@ -1,0 +1,137 @@
+@media screen and (max-width: 200px) {
+
+ 
+    .section__nosotros{
+    display: grid;
+    grid-template-rows: repeat(4, 200px);
+    grid-template-columns: 180px;
+    }
+    .section__nosotros{
+      display: grid;
+      grid-template-rows: repeat(4, 255px);
+      grid-template-columns: 150px;
+      }
+    .caru__p{
+    font-size: 12px;
+    padding: 0.5em;}
+    .emu__p{
+      font-size: 12px;
+      padding: 0.5em;}
+    .casasn__p{
+      font-size: 12px;
+      padding: 0.5emx;}
+    .casamx__p{
+      font-size: 12px;
+      padding: 0.5em;}
+      .section__proyectos{
+        display: grid;
+        grid-template-rows: repeat(4, 80px);
+        grid-template-columns: 100px;
+      }  }
+  
+  @media screen and (min-width: 201px) and (max-width: 480px) {
+  footer { flex-direction: column; 
+    font-size: 0.8em;
+    height: 20px;}
+   nav ul  { flex-direction: column;}
+  nav ul li a { font-size: 0.8em;} 
+  
+  .section__nosotros{
+  display: grid;
+  grid-template-rows: repeat(4, 255px);
+  grid-template-columns: 300px;
+  }
+  .section__proyectos{
+    display: grid;
+    grid-template-rows: repeat(4, 200px);
+    grid-template-columns: 300px;
+  }
+  .caru__p{
+  font-size: 12px;
+  padding: 10px;}
+  .emu__p{
+    font-size: 12px;
+    padding: 10px;}
+  .casasn__p{
+    font-size: 12px;
+    padding: 10px;}
+  .casamx__p{
+    font-size: 12px;
+    padding: 10px;}
+  }
+  
+  
+    
+  @media screen and (min-width: 481px) and (max-width: 890px) {
+  
+   nav ul  { flex-direction: column;}
+  nav ul li a { font-size: 1.2em;} 
+  .particular__caru{
+    display: flex;
+    flex-direction: column;}
+  
+    .section__proyectos{
+      display: grid;
+      grid-template-rows: repeat(4, 300px);
+      grid-template-columns: 500px;
+    }
+    
+  
+  
+    .caru__p{
+      font-size: 18px;
+      padding: 10px;}
+      .emu__p{
+        font-size: 18px;
+        padding: 10px;}
+      .casasn__p{
+        font-size: 18px;
+        padding: 10px;}
+      .casamx__p{
+        font-size: 18px;
+        padding: 10px;}
+  
+    .particular__emu{
+      display: flex;
+    flex-direction: column;}
+    .particular__casasn{
+      display: flex;
+    flex-direction: column;}
+    .particular__casamx{
+      display: flex;
+    flex-direction: column;}
+  
+  .main__contacto{
+  display: flex;
+  flex-direction: column;
+  }
+  .contacto__description{
+  padding: 20px;
+  }
+  }
+  @media screen  and (max-width: 890px) {
+    .caru{
+      grid-row: 1/2;
+      grid-column: 1/2;
+    }
+    .emu{
+      grid-row: 2/3;
+      grid-column: 1/2;
+    }
+    .casasn{
+      grid-row: 3/4;
+      grid-column: 1/2;
+    }
+    .casamx{
+      grid-row: 4/5;
+      grid-column: 1/2;
+    }
+  
+  
+  
+  }
+  @media (max-width: 600px) {
+    .carousel-item {
+      height: 280px;
+    }
+  }

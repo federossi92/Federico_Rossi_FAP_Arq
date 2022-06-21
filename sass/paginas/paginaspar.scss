@@ -1,0 +1,86 @@
+.particular__caru{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(450px, auto);
+    padding: 50px;
+    opacity: 0.8
+    ;}
+    .caru_img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 15px;
+    }
+    .caru_p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    padding: 30px;
+    }
+    .particular__emu{
+    
+    padding: 50px;
+    opacity: 0.8
+    ;}
+    
+    
+    .carousel-item{
+      width: 50%;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+    margin-top: 70px;
+    }
+    
+    .slide img {
+      height: 50vh;
+    }
+    
+    
+    .emu_p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    padding: 30px;
+    }
+    
+    .particular__casasn{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(450px, auto);
+    padding: 50px;
+    opacity: 0.8;
+    }
+    .casasn_img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 15px;
+    }
+    .casasn_p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    padding: 30px;
+    }
+    
+    .particular__casamx{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(450px, auto);
+    padding: 50px;
+    opacity: 0.8;
+    }
+    .casamx_img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 15px;
+    }
+    .casamx_p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    padding: 30px;
+    }
